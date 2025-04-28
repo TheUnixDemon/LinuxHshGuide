@@ -28,4 +28,4 @@ OMB_USE_SUDO=true # set to false
 ```
 
 ## VS Code extensions
-Some extensions that I and can recommend are written in [`codeExtensions.sh`](./codeExtensions.sh). You can check that out if you want to install some useful extensions but don't know where to start.
+Some extensions that I and can recommend are written in [`codeExtensions.sh`](../codeExtensions.sh). You can check that out if you want to install some useful extensions but don't know where to start.
