@@ -1,11 +1,10 @@
 #!/bin/bash
 
-
-# drivers nvidia/amd & intel (https://wiki.archlinux.org/title/NVIDIA) (https://discovery.endeavouros.com/gaming/gaming-101/2022/01/)
-#sudo pacman -S nvidia-utils lib32-nvidia-utils # nvidia
-#sudo pacman -S xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon # amd radeon
-#sudo pacman -S vulkan-icd-loader lib32-vulkan-icd-loader
-#sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel # for integrated gpu chip
+# drivers nvidia/amd & intel (https://wiki.archlinux.org/title/NVIDIA) (https://github.com/korvahannu/arch-nvidia-drivers-installation-guide)
+sudo pacman -S nvidia nvidia-utils lib32-nvidia-utils # nvidia NV110 or newer
+sudo pacman -S xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon # amd radeon
+sudo pacman -S vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
+sudo pacman -S mesa lib32-mesa vulkan-intel lib32-vulkan-intel # for integrated gpu chip
 
 # additional package manager
 sudo pacman -S flatpak
@@ -34,9 +33,9 @@ sudo psql -U postgres # from here on please change superuser password and create
 sudo pacman -S keepassxc chromium gparted # password manager, alternative open source browser & partition tool
 
 # oh my bash (more featured terminal experiance)
-#bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)" 
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
 
 # messangers that are recommended by myself
-#yay -S vesktop-bin # better than the original (non forced updates)
-#yay -S teams-for-linux-bin # teams for linux
-#sudo pacman -S telegram-desktop
+yay -S vesktop-bin # better than the original (non forced updates)
+yay -S teams-for-linux-bin # teams for linux
+sudo pacman -S telegram-desktop

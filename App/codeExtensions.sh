@@ -12,10 +12,6 @@ code --install-extension ms-python.vscode-pylance
 code --install-extension ms-python.debugpy # debugger
 code --install-extension ms-python.black-formatter # formatter
 
-# database (postgres) (not needed if other enviroument or terminal prefered)
-code --install-extension mtxr.sqltools # extension for connection
-code --install-extension mtxr.sqltools-driver-pg # database driver
-
 # tools for collaboration & other
 code --install-extension ms-vsliveshare.vsliveshare # collab
 
