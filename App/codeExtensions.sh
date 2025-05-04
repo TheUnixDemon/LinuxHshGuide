@@ -16,4 +16,4 @@ code --install-extension ms-python.black-formatter # formatter
 code --install-extension ms-vsliveshare.vsliveshare # collab
 
 # remote ssh/development
-#code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh
