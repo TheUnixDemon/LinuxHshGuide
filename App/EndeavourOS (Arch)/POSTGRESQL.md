@@ -51,5 +51,5 @@ psql -U postgres -d hsh_db1
 Here you can put in the table that you want to check if the backup restore was successfully.
 
 ```sql
-SELECT * FROM YOUR-TABLEN;
+SELECT * FROM YOUR_TABLE;
 ```
