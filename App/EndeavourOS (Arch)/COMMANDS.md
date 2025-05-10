@@ -19,6 +19,10 @@ flatpak install flathub packagename
 sudo pacman -Rns packagename
 yay -Rns packagename
 flatpak uninstall packagename
+# update
+sudo pacman -Syu
+yay -Syu
+flatpak update
 ```
 
 ### Sources
