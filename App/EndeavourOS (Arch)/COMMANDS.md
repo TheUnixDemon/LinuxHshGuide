@@ -11,12 +11,10 @@ I would recommend only to use the packages from the [offical Arch repository](ht
 Here an example for basic use of the package manager.
 ```bash
 #!/bin/bash
-
 # install
 sudo pacman -S packagename
 yay -S packagename
 flatpak install flathub packagename
-
 # uninstall
 sudo pacman -Rns packagename
 yay -Rns packagename
